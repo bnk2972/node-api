@@ -1,0 +1,14 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bnk2972/node-api.git",
+  "author": "BNK 2972 <beer@livingmobile.me>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
