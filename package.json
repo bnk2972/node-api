@@ -9,6 +9,22 @@
     "dev": "node index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemod": "^3.0.0"
+  },
+  "_moduleAliases": {
+    "@errors": "./errors",
+    "@controllers": "./controllers",
+    "@routes": "./routes",
+    "@services": "./services",
+    "@data": "./data",
+    "@config": "./config",
+    "@connections": "./connections",
+    "@routes-v1": "./routes/v1",
+    "@schemas": "./schemas",
+    "@models": "./models"
   }
 }
